@@ -7,4 +7,7 @@ def test_direction_down():
     assert Direction.DOWN == "down", "Down direction not equal"
 
 def test_direction_left():
-    assert Direction.LEFT == "left", "Down direction not equal"
+    assert Direction.LEFT == "left", "Left direction not equal"
+
+def test_direction_right():
+    assert Direction.RIGHT == "right", "Right direction not equal"
