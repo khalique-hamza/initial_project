@@ -1,2 +1,7 @@
-print("Modifying the initial file.")
-print("This is proof of the third commit.")
+from enum_direction import Direction
+
+def main():
+    current_direction = Direction.UP
+    print(f"The current direction is {current_direction}!")
+
+main()
