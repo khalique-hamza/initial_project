@@ -8,3 +8,6 @@ def test_direction_down():
 
 def test_direction_left():
     assert Direction.LEFT == "left", "Down direction not equal"
+
+def test_direction_right():
+    assert Direction.RIGHT == "right", "Right direction not equal; main branch"
