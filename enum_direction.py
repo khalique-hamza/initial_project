@@ -5,3 +5,4 @@ class Direction:
     DOWN = "down"
     LEFT = "left"
     RIGHT = "right"
+    DIAGONAL = "diagonal"
